@@ -10,14 +10,15 @@ public class MainProgram {
         cat.setName( "Stormy");
         cat.eat();
 
-        home.makeAllSounds();
-        home.adoptPet(dog1);
-        home.adoptPet(dog2);
+       
+       
 
 
         System.out.println("-------------------------");
         home.adoptPet(cat);
         home.makeAllSounds();
+        home.adoptPet(dog1);
+        home.adoptPet(dog2);
 
 
 
